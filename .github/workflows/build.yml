@@ -11,7 +11,9 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        include: []
+        include:
+          - shield: reviung41
+            board: nrfmicro_13
     steps:
       - name: Checkout
         uses: actions/checkout@v2
